@@ -49,6 +49,7 @@ O objetivo deste artefato é fazer a pós-rastreabilidade dos requisitos, verifi
 | 13/11/2019 | 1.0 | Criação do documento e primeira versão da Matriz de Rastreabilidade | Ernando | 
 | 14/11/2019 | 1.1 | Adição de novos requisitos | Victor Levi Peixoto && Gabriel Marques Tiveron | 
 | 14/11/2019 | 1.2 | Adição de referencias ao First Things First | Victor Levi && Gabriel Tiveron |
+| 14/11/2019 | 1.3 | Correção de links de rastreabilidade | Victor Levi && Gabriel Tiveron |
 
 
 ## Referências
