@@ -5,7 +5,7 @@
 
 <p align="justify">Os cenários consistem de uma coleção de narrativas de situações no domínio que favorecem o levantamento de informações em um contexto proposto que permitem a identificação de possíveis tarefas e funcionalidades que se pode realizar em um software, como também identifica problemas e a antecipação das soluções. A técnica de elaborar cenários é uma maneira excelente de representar, para clientes e usuários, os problemas existentes em um software e as possibilidades que podem surgir. Os cenários têm como foco as atividades desempenhadas pelos usuários nas organizações em diferentes contextos possibilitando uma perspectiva mais ampla dos problemas atuais onde o sistema será inserido, explicando porque ele é necessário.</p>
 
-## C1
+## [C1](#c1)
 
 **[Identificar](lexicos.md#l09) uma música**
 
@@ -25,7 +25,7 @@
 |**Exceção**|
 Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicativo estar indisponível<br>Muitos ruídos no ambiente|
 
-## C2
+## [C2](#c2)
 
 **Realizar cadastro**
 
@@ -45,7 +45,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>E-mail inválido<br>Aplicativo estar indisponível<br>Senha inválida<br>E-mail ou conta do Facebook inexistente<br>E-mail ou Facebook fora do ar|
 
-## C3
+## [C3](#c3)
 
 **Visualizar músicas [descobertas](lexicos.md#l09)**
 
@@ -65,7 +65,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Músicas não terem sido reconhecidas<br>Aplicativo estar indisponível<br>|
 
-## C4
+## [C4](#c4)
 
 **Salvar músicas [descobertas](lexicos.md#l09)**
 
@@ -85,7 +85,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Músicas não terem sido [reconhcidas](lexicos.md#l01)<br>E-mail inválido<br>Aplicativo estar indisponível<br>Senha inválida<br>E-mail ou conta do Facebook inexistente<br>E-mail ou Facebook fora do ar|
 
-## C5
+## [C5](#c5)
 
 **Procurar músicas ou artistas no app**
 
@@ -105,7 +105,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>[Usuário](lexicos.md#l10) pesquisar por um artista ou música inexistente|
 
-## C6
+## [C6](#c6)
 
 **Fazer [login](lexicos.md#l05)**
 
@@ -125,7 +125,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>[Usuário](lexicos.md#l10) esquecer e-mail<br>[Usuário](lexicos.md#l10) não ter confirmado a conta por e-mail|
 
-## C7
+## [C7](#c7)
 
 **Sair do aplicativo Shazam**
 
@@ -145,7 +145,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível|
 
-## C8
+## [C8](#c8)
 
 **Excluir conta**
 
@@ -165,7 +165,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível<br>E-mail ou facebook inválidos|
 
-## C9
+## [C9](#c9)
 
 **[Compartilhar](lexicos.md#l03) [mídia](lexicos.md#l02) identificada**
 
@@ -185,7 +185,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível<br>E-mail ou conta em alguma das plataformas de compartilhamento estar indisponível<br>O [Usuário](lexicos.md#l10) não possuir e-mail ou nenhuma conta nas plataformas disponíveis|
 
-## C10
+## [C10](#c10)
 
 **Abrir [mídia](lexicos.md#l02) do Shazam em plataformas de reprodução de músicas**
 
@@ -205,7 +205,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível<br>A conta em alguma das plataformas d[Usuário](lexicos.md#l10)e compartilhamento estar indisponível<br>O [Usuário](lexicos.md#l10) não possuir conta em nenhuma das plataformas disponíveis|
 
-## C11
+## [C11](#c110)
 
 **Remover alguma [mídia](lexicos.md#l02) identificada da [biblioteca](lexicos.md#l04)**
 
@@ -225,7 +225,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível<br>[Usuário](lexicos.md#l10) não ter nenhuma música em sua [biblioteca](lexicos.md#l04)|
 
-## C12
+## [C12](#c12)
 
 **Visualizar letra de alguma música [identificada](lexicos.md#l01)**
 
