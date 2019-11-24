@@ -1,7 +1,7 @@
 # Diagramas de casos de usuário
 
 ## [Escanear música](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/lexicos/#lexicos) - Itens _Identificar e Shazam_
-![Escanear](https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/DCU/DCU_escanear.png)
+![Escanear](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/DCU/DCU_escanear.png)
 
 ## [Compartilhar música](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/lexicos/#lexicos) - Item _Compartilhar_
 ![Compartilhar](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/DCU/DCU_compartilhar.png)
