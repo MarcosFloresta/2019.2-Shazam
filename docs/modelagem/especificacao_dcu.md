@@ -3,7 +3,7 @@
 ## Introdução
 As especificações de casos de uso tem como objetivo de proporcionar um maior detalhamento sobre os diagramas de casos de uso e de exportar para uma linguagem natural, no nosso caso são 3 especificações, uma para cada diagrama em específico, sem contar com o diagrama geral, tendo em vista que o detalhamento do mesmo está dentro dos outros diagramas.
 
-**Escanear música**
+### **Escanear música**
 
 |Objetivo  |
  -----------   |
@@ -19,7 +19,7 @@ As especificações de casos de uso tem como objetivo de proporcionar um maior d
 |**Rastreabilidade**|
 |[Diagrama de casos de uso](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/diagramas/#escanear)|
 
-**Histórico de músicas**
+### **Histórico de músicas**
 
 |Objetivo  |
  -----------   |
@@ -35,7 +35,7 @@ As especificações de casos de uso tem como objetivo de proporcionar um maior d
 |**Rastreabilidade**|
 |[Diagrama de casos de uso](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/diagramas/#historico-de-musicas)|
 
-**Descobrir novas músicas**
+### **Descobrir novas músicas**
 
 |Objetivo  |
  -----------   |
