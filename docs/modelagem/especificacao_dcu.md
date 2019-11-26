@@ -17,7 +17,23 @@ As especificações de casos de uso tem como objetivo de proporcionar um maior d
 |**Fluxos de exceção**|
 |Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicativo estar indisponível<br>Muitos ruídos no ambiente|
 |**Rastreabilidade**|
-|[Diagrama de casos de uso](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/diagramas/#escanear)|
+|[Diagrama de casos de uso](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/diagramas/#escanear-musica)|
+
+### **Compartilhar música**
+
+|Objetivo  |
+ -----------   |
+|Compartilhar externamente uma música |
+|**Atores**|
+|Usuário que quer compartilhar as músicas que escaneou|
+|**Fluxo principal**|
+|Usuário que quer compartilhar uma música<br>Usuário acessa o menú esquerdo da biblioteca<br>Usuário escolhe uma música da biblioteca<br>Por fim clica para compartilhar a mesma e escolhe uma rede social|
+|**Fluxos alternativos**|
+|O usuário escaneia a música<br>O usuário compartilha assim que descobre a música<br>|
+|**Fluxos de exceção**|
+|Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicativo estar indisponível<br>Muitos ruídos no ambiente|
+|**Rastreabilidade**|
+|[Diagrama de casos de uso](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/diagramas/#compartilhar-musica)|
 
 ### **Histórico de músicas**
 
