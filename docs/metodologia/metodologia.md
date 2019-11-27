@@ -6,13 +6,13 @@ Numa decisão conjunta o grupo no geral decidiu implementar a metodologia agile 
 
 Nossas issues não seguem um padrão, um _template_, tendo em vista que a complexidade do projeto não requisitava o mesmo, e não é o foco do projeto outros indivíduos criarem issues.
 
-[![Issues](vou_colocar)](https://github.com/Requisitos-de-Software/2019.2-Shazam/issues?page=1&q=is%3Aissue+is%3Aclosed)
+[![Issues](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/Metodologias/issues.png)](https://github.com/Requisitos-de-Software/2019.2-Shazam/issues?page=1&q=is%3Aissue+is%3Aclosed)
 
 ## Labels
 
 Visando uma melhor organização das issues foram utilizadas as labels que estão disponiveis no github
 
-[![Labels](vou_colocar)](https://github.com/Requisitos-de-Software/2019.2-Shazam/labels)
+[![Labels](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/Metodologias/labels.png)](https://github.com/Requisitos-de-Software/2019.2-Shazam/labels)
 
 ## Comunicação
 
@@ -20,7 +20,7 @@ Visando uma melhor organização das issues foram utilizadas as labels que estã
 
 Considerando que o telegram era um ambiente o quel todos possuiam familiaridade e possui uma excelente portabilidade, foi decidido utilizar o mesmo para a nossa comunicação diária
 
-![Telegram](vou_colocar)
+![Telegram](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/Metodologias/telegram.png)
 
 ### Reuniões
 
