@@ -5,6 +5,7 @@ site_description: 'Requisitos de Software do aplicativo Shazam'
 
 nav:
   - Home: 'index.md'
+  - Metodologia: 'metodologia/metodologia.md'
   - Pré-Rastreabilidade:
     - Rich Pictures: 'pre-rastreabilidade/rich-pictures/index.md'
   - Elicitação:
