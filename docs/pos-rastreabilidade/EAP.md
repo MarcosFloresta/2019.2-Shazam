@@ -13,13 +13,20 @@ Para a confecção da EAP foi utilizada a metodologia "Regra do 100%" proposta p
 
 ## EAP
 
+### V1.0
+
 ![EAP](../assets/img/EAP.png)
+
+### V1.1
+
+![EAP1.1](../assets/img/EAP11.png)
 
 ### Controle de Versão
 
 |Data|Versão|Alteração|Responsável(eis)|
 |:--:|:----:|:-------:|:--------------:|
 |27/11/2019|1.0|Criação do Documento|Gabriel Tiveron|
+|27/11/2019|1.1|Adição de nova versão da EAP | Gabriel Tiveron |
 
 ### Referencias
 
