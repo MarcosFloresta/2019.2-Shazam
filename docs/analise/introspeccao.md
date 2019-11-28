@@ -39,8 +39,9 @@ Quantidade de itens reprovados|Qualidade Baixa|Qualidade Média| Qualidade Alta|
 
 ## Inspeção
 
-|Responsável|Versão|Data|
-|:--:|:----:|:---:|
+|Autor do documento|Inspetor
+|:--:|:----:|
+|Ernando| Débora|
 
 ## Versionamento
 

@@ -41,8 +41,9 @@ Quantidade de itens reprovados|Qualidade Baixa|Qualidade Média| Qualidade Alta|
 
 ## Inspeção
 
-|Responsável|Versão|Data|
-|:--:|:----:|:---:|
+|Autor do documento|Inspetor|
+|:--:|:----:|
+|Débora Vilela|Nathalia Lorena|                                                         
 
 ## Versionamento
 
@@ -55,4 +56,4 @@ Quantidade de itens reprovados|Qualidade Baixa|Qualidade Média| Qualidade Alta|
 
 * SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 4. 1º/2019. 37 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
-    [Deezer](https://requisitos-de-software.github.io/2019.2-Deezer/analise/verificacoes/vv02/) acesso em 26 de novembro de 2019.
+    

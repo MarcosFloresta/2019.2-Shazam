@@ -20,6 +20,7 @@ Para a inspeção da e será utilizada uma metodologia em que cada requisito lev
 |:---:|:---:|
 | Nathalia, Débora e Victor | Ernando Braga |
 
+
 |Requisito | Questões | Respostas | Impacto | Modificações |
 |:--:|:----:|:-------:|:---:|:---|
 |**1**| O requisito corresponde à realidade das funcionalidades desejadas? | Sim | Alto | - |
@@ -111,3 +112,7 @@ Todos os requisitos do backlog estão com falta em rastreabilidade, o que torna 
 |:--:|:----:|:-------:|:---:|
 | 04/11/2019 | 1.0 | Criação do documento | Ernando Braga |
 | 05/11/2019 | 1.1 | Adição de Gráfico para melhor visualização| Gabriel Tiveron |
+
+## Referências
+
+SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 23. 1º/2019. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

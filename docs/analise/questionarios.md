@@ -46,8 +46,9 @@ Foram levantadas questões as quais expressam a finalidade e a execução de cad
 
 ## Inspeção
 
-|Responsável|Versão|Data|
-|:--:|:----:|:---:|
+|Autor do documento|Inspetor|
+|:--:|:----:|
+|Ernando| Débora|
 
 ## Versionamento
 
@@ -60,6 +61,5 @@ Foram levantadas questões as quais expressam a finalidade e a execução de cad
 
 * SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 4. 1º/2019. 37 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
-  [Rappi](https://requisitos-de-software.github.io/2019.2-Rappi/#/Verificacao/VerivalQuestionario) acesso em 26 de novembro de 2019.  
 
 

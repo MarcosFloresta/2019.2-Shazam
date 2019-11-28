@@ -52,8 +52,9 @@
 
 ## Inspeção
 
-|Responsável|Versão|Data|
+|Autor(es)|Inspetor|
 |:--:|:----:|:---:|
+|Nathalia, Ernando e Victor|Débora|
 
 ## Versionamento
 

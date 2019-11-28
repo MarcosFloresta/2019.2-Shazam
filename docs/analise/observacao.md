@@ -16,7 +16,7 @@ Para a inspeção da e será utilizada uma metodologia em que cada requisito lev
 
 ## Checklist Observação
 
-|Autores do documento| Inspetor |
+|Autor(es) do documento| Inspetor |
 |:---:|:---:|
 | Nathalia e Débora | Ernando Braga |
 
@@ -85,3 +85,7 @@ Refatorar os requisitos levantado a partir da <b>Observação</b>, a partir do c
 | 04/11/2019 | 1.0 | Criação do documento | Ernando Braga |
 | 04/11/2019 | 1.1 | Adição do Checklist | Ernando Braga |
 | 05/11/2019 | 1.2 | Adição de Gráficos para melhor visualização | Gabriel Tiveron |
+
+ ## Referências
+ 
+SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

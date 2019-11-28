@@ -13,6 +13,11 @@ Para a validação da qualidade dos nossos documentos de NFR foram levantadas 6 
 ![Grafico1](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/NFR/Graph.png)
 ![Grafico2](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/NFR/Graph2.png)
 
+|Autor(es) do documento|Inspetor|
+|:--:|:----:|
+|Gabriel e Ernando| Victor Levi|
+
+
 |Data|Versão|Alteração|Responsável(eis)|
 |:--:|:----:|:-------:|:---:|
 | 04/11/2019 | 1.0 | Criação do documento | Victor Peixoto && Gabriel Tiveron |
