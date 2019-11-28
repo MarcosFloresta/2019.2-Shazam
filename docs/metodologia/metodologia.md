@@ -26,3 +26,11 @@ Considerando que o telegram era um ambiente o quel todos possuiam familiaridade 
 
 Devido o fato de diversos integrantes possuírem trabalho e ou estágio, foi difícil de organizar reunióes, presenciais, semanalmente para decisão de novas issues e do que fazer na semana posterior. Ademais, por conta disso, o grupo como um todo decidiu que seria melhor fazer reuniões por video chamadas, e o melhor software encontrado foi o hangouts, tendo em vista a acessibilidade do mesmo e a familiarização dos integrantes com o mesmo.
 
+## Ferramentas Usadas
+
+
+
+|Data|Versão|Alteração|Responsável(eis)|
+|:--:|:----:|:-------:|:---:|
+| 27/11/2019 | 1.0 | Criação do documento | Victor Levi |
+| 27/11/2019 | 1.1 | Adicionando metodologia | Victor Levi |
