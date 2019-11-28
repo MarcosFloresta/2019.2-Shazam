@@ -40,8 +40,24 @@ Devido o fato de diversos integrantes possuírem trabalho e ou estágio, foi dif
 
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/drive.jpg" width="120px" />
 
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/apresentacoes.jpg" width="120px" />
+
+
+## Heatmap
+
+Aqui estão contidos os horários em comum da equipe, dessa forma, permitindo um desempenho e organização melhor no desenvolvimento dos artefatos sem sobrecarregar nenhum membro.
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/horariosEquipe.png" />
+
+## Roadmap
+
+Nosso planejamento inicial foi baseado em entregas de artefatos específicos a cada ponto de controle.
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/planejamento.png" />
+
 
 |Data|Versão|Alteração|Responsável(eis)|
 |:--:|:----:|:-------:|:---:|
 | 27/11/2019 | 1.0 | Criação do documento | Victor Levi |
 | 27/11/2019 | 1.1 | Adicionando metodologia | Victor Levi |
+| 27/11/2019 | 1.2 | Adicionando imagens das ferramentas, planejamento e heatmap| Nathalia Lorena |
