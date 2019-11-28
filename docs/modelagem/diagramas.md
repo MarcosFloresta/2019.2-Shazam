@@ -2,7 +2,7 @@
 
 ## Escanear música
 
-[Léxico](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/lexicos/#lexicos) - Itens _Identificar e Shazam_ [Especifição](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/especificacao_dcu/#escanear-musica)
+[Léxico](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/lexicos/#lexicos) - Itens _Identificar e Shazam_ [Especificação](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/especificacao_dcu/#escanear-musica)
 
 ![Escanear](https://raw.githubusercontent.com/Requisitos-de-Software/2019.2-Shazam/master/docs/assets/img/DCU/DCU_escanear.png)
 
