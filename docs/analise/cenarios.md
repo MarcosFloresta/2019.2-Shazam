@@ -77,19 +77,16 @@ Foram levantadas questões as quais expressam a finalidade e a execução de cad
 
 ## Correção
 
-|Responsável|Cenário|Versão|
-|:--:|:----:|:---:|
-
-## Acompanhamento
-
-|Cenário|Questão|Impacto|
-|:--:|:----:|:---:|
+|Autor do documento|Inspetor|
+|:--:|:----:|
+|Nathalia Lorena| Débora|
 
 ## Versionamento
 
 |Data|Versão|Alteração|Responsável(eis)|
 |:--:|:----:|:-------:|:---:|
 |27/11/2019|1.0|Criação do documento|Débora Vilela| 
+|27/11/2019|1.1|Correções em Cenários|Nathalia Lorena| 
 
 
 ## Referências
