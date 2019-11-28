@@ -245,6 +245,22 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível<br>Não existir letra da música que o [Usuário](lexicos.md#l10) optou<br>[Usuário](lexicos.md#l10) não ter nenhuma música em sua [biblioteca](lexicos.md#l04)|
 
+## [C13](#c13)
+
+**Utilizar o [Shazam Code](lexicos.md#l11)**
+
+|Objetivo|
+|Visualizar o ambiente proporcionado pelo [Shazam Code](lexicos.md#11)|
+|**Contexto**|
+|Local: Parte inferior da tela Principal do Shazam (ícone da câmera) em seguida deve-se ajudar o [Shazam Code](lexicos.md#11) na área indicada pelo app.<br>Pré-Condição: O [Usuário](lexicos.md#10) deve ter acesso a um [Shazam Code](lexicos.md#11)<br>Pós-condição:O [Usuário](lexicos.md#10) tem acesso à interface proporcionada pelo [Shazam Code](lexicos.md#11)|
+|Recursos|
+|Internet, aplicativo, [Shazam Code](lexico.md#11)|
+|Episódios|
+|[Usuário](lexicos.md#10) clica no ícone da câmera e aponta para o [Shazam Code](lexico.md#11)|
+|Restrição|
+|O [Usuário](lexicos.md#10) ter o aplicativo<br>O [Usuário](lexicos.md#10) deve ter acesso à um [Shazam Code](lexicos.md#11)|
+|Exceção|
+|Internet cair<br>Aplicativo estar indisponível<br>O [Shazam Code](lexico.md#11) ser inválido<br>O [Usuário](lexico.md#10) não ter acesso ao [Shazam Code](lexico.md#11)|
 
 ## Controle de versão
 
@@ -253,5 +269,6 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 | 27/09/2019 | 1.0 | Criação do documento | Nathalia Lorena |
 | 27/09/2019 | 2.0 | Adicionando cenários | Nathalia Lorena |
 | 28/09/2019 | 2.1 | Adicionando cenários | Nathalia Lorena |
-|30/09/2019|2.2|Correção de indentação|Débora|
-|13/11/2019|2.3|Adicionando rastreabilidade|Nathalia Lorena|
+| 30/09/2019 | 2.2 | Correção de indentação | Débora|
+| 13/11/2019 | 2.3 | Adicionando rastreabilidade | Nathalia Lorena |
+| 27/11/2019 | 2.4 | Adição do cenário C13 | Gabriel Tiveron |
