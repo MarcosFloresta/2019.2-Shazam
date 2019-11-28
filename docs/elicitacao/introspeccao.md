@@ -37,3 +37,7 @@
 | 12/09/2019 | 1.0 | Criação do documento | Ernando e Débora | 
 | 12/09/2019 | 1.0 | Atualização no MoSCoW | Victor Levi | 
 |30/09/2019|1.1|Correção de indentação|Débora|
+
+## Referências 
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

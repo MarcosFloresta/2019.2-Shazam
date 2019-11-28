@@ -43,3 +43,7 @@ O questionário é uma técnica que tem o intuito de compreender os diversos tip
 |Data|Versão|Alteração|Responsável(eis)|
 |:--:|:----:|:-------:|:---:|
 | 12/09/2019 | 1.0 | Criação do documento | Ernando, Nathalia e Débora | 
+
+## Referências 
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

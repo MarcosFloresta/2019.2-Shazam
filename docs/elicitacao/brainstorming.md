@@ -63,3 +63,9 @@ A ideia é dar espaço para a diversidade de pensamentos e experiências e extra
 | 24/09/2019 | 1.0 | Criação do documento | Nathalia Lorena |
 | 24/09/2019 | 1.1 | Correção de erros ortográficos | Nathalia Lorena |
 |30/09/2019|1.2|Correção de indentação do documento |Débora|
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+- Tutorial: Como fazer Brainstorming Passo a Passo. Disponível em: https://www.siteware.com.br/metodologias/como-fazer-brainstorming-passo-a-passo/ Acesso em: 07 de setembro de 2019.
