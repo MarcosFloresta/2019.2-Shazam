@@ -15,6 +15,11 @@ Um Rich Picture é uma maneira de explorar, reconhecer e definir uma situação 
 
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/pre-rastreabilidade/rich-pictures/v1/1.0.jpg" />
 
+## Versão 2
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/pre-rastreabilidade/rich-pictures/v2/2.0.png" />
+
+
 |Data|Versão|Alteração|Responsável(eis)|
 |:--:|:----:|:-------:|:---:|
 | 25/08/2019 | 1.0 | Criação do documento | Ernando|
