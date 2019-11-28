@@ -7,7 +7,7 @@ nav:
   - Home: 'index.md'
   - Metodologia: 'metodologia/metodologia.md'
   - Pré-Rastreabilidade:
-    - Rich Pictures: 'pre-rastreabilidade/rich-pictures/index.md'
+    - Rich Pictures: 'pre-rastreabilidade/rich-pictures/richPicture.md'
   - Elicitação:
     - Introspecção: 'elicitacao/introspeccao.md'
     - Análise de Protocolo: 'elicitacao/analise_protocolo.md'
