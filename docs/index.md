@@ -10,6 +10,9 @@
 
 Shazam é um aplicativo que reconhece música, TV e mídia ao seu redor. É a melhor maneira de descobrir, explorar e compartilhar a música que você ama.
 
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/imgs/sobreShazam.png"/>
+
+
 ## Equipe
 
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/team/nathalia.jpg" width="120px" />
