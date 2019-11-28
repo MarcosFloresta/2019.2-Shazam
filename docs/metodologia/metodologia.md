@@ -28,6 +28,17 @@ Devido o fato de diversos integrantes possuírem trabalho e ou estágio, foi dif
 
 ## Ferramentas Usadas
 
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/shazam.jpg" width="120px" />
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/mkdocs.jpg" width="120px" />
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/telegram.jpg" width="120px" />
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/hangouts.jpg" width="120px" />
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/zenhub.jpg" width="120px" />
+
+<img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/drive.jpg" width="120px" />
 
 
 |Data|Versão|Alteração|Responsável(eis)|
