@@ -28,3 +28,8 @@ Um Rich Picture é uma maneira de explorar, reconhecer e definir uma situação 
 |25/08/2019|2.3|Adicionando versão 1 do Rich Picture|Ernando|
 |27/11/2019|3.0|Adicionando versão 2 do Rich Picture|Ernando|
 
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 4. 1º/2019. 37 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+- BIAS, Randolph; KARAT, Clare-Marie. Justifying Cost-Justifying Usability - Chapter 1. 16 páginas. Material apresentado na disciplina de Interação Humana Computador no curso de Engenharia de Software da UnB, FGA.
