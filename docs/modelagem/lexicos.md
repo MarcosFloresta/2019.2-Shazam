@@ -24,6 +24,7 @@
 |[L08](#l08)| **Abrir** | Verbo | <ul><li>Possível visualização da mídia reconhecida em outros aplicativos de músicas(Spotify, Google Play Music, Apple Music)</li></ul> | <ul><li>Conexão direta com outro aplicativo de de streaming de música da preferência do usuário</li><li>O usuário pode inserir a mídia reconhecida em suas playlists favoritas</li></ul> | Iniciar |
 |[L09](#l09)| **Shazam** | Objeto | <ul><li>Termo que se refere a ação principal da aplicação. Trata-se da descoberta de novas mídias realizadas pelo aplicativo</li></ul> | <ul><li>Ação principal se refere a sua ação de detecção de novas mídias como "Toque para fazer o Shazam"</li><li>As mídias detectadas por meio da aplicação são listadas com a denominação de "Shazams"</li> | Descobertas
 |[L10](#l10)| **Usuário** | Objeto | <ul><li>Termo que se refere aos indivíduos que fazem uso da aplicação.</li></ul> | <ul><li>Pode usufruir de todos os serviços disponíveis pelo app, descobrir, compartilhar mídia identicada entre outros serviços que o app disponibiliza</li> | usufrutuário
+|[L11](#l11)|**Shazam Code**| Objeto | <ul><li>Código criado pelo Shazam para interagir com os Usuários. Presentes em revistas, sites e etc.</li></ul> | <ul><li>Os usuário podem interagir com uma nova interface por meio da câmera do celular</li></ul>|Código|
 
 
 ## Versionamento do documento
@@ -32,9 +33,9 @@
 |:--:|:----:|:-------:|:---:|
 | 29/09/2019 | 1.0 | Criação do documento | Nathalia Lorena |
 | 30/09/2019 | 1.1 | Criação de novos léxicos | Ernando |
-| 30/09/2019 | 1.1 | Adição do léxico 'Abrir' | Ernando |
-| 30/09/2019 | 1.2 | Adição do léxico 'Shazam' | Gabriel|
-|30/09/2019|1.3|Correção de indentação|Débora|
-|30/09/2019|1.4|Adicionando Metodologia|Nathalia Lorena|
-|13/11/2019|1.5|Adicionando rastreabilidade e melhorias nos léxicos|Nathalia Lorena|
-
+| 30/09/2019 | 1.2 | Adição do léxico 'Abrir' | Ernando |
+| 30/09/2019 | 1.3 | Adição do léxico 'Shazam' | Gabriel Tiveron |
+| 30/09/2019 | 1.4 | Correção de indentação | Débora|
+| 30/09/2019 | 1.5 | Adicionando Metodologia| Nathalia Lorena |
+| 13/11/2019 | 1.6 | Adicionando rastreabilidade e melhorias nos léxicos | Nathalia Lorena |
+| 27/11/2019 | 1.7 | Adição do léxico 'Shazam Code'| Gabriel Tiveron |
