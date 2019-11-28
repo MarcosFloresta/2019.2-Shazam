@@ -36,3 +36,7 @@
 | 01/10/2019 | 1.1 | Adição das especificações de casos de uso | Victor Levi |
 | 01/10/2019 | 1.2 | Melhorias de acordo com o solicitado na validação | Victor Levi |
 | 01/10/2019 | 1.3 | Novo diagrama e remodelagem dos anteriores| Victor Levi |
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 11. 1º/2019. 40 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

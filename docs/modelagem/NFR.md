@@ -104,3 +104,9 @@ Analisar os impactos das escolhas atuais do Shazam baseadas nos requisitos-não-
 |14/10/2019|1.8|Adição da versão 1.1 dos NFR geral, portabilidade, segurança e confiabilidae| Gabriel Tiveron|
 |24/11/2019|1.9|Adição de claims nos NFRs de desempenho e segurança| Gabriel Tiveron|
 |24/11/2019|2.0|Completude lógica do NFR Geral|Gabriel Tiveron|
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 17. 1º/2019. 7-28 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+- BIAS, Randolph; KARAT, Clare-Marie. Justifying Cost-Justifying Usability - Chapter 1. 16 páginas. Material apresentado na disciplina de Interação Humana Computador no curso de Engenharia de Software da UnB, FGA.
