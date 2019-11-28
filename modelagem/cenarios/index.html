@@ -1,0 +1,1858 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Requisitos de Software do aplicativo Shazam">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
+    
+    
+      
+        <title>Cenários - Requisitos de Software - Shazam</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#cenarios" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Requisitos de Software - Shazam" class="md-header-nav__button md-logo">
+          
+            <img src="../../assets/img/shazam-logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Requisitos de Software - Shazam
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Cenários
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Shazam/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Requisitos2-2019/Shazam
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Requisitos de Software - Shazam" class="md-nav__button md-logo">
+      
+        <img src="../../assets/img/shazam-logo.png" width="48" height="48">
+      
+    </a>
+    Requisitos de Software - Shazam
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Shazam/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Requisitos2-2019/Shazam
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../metodologia/metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Pré-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Pré-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pre-rastreabilidade/rich-pictures/richPicture/" title="Rich Pictures" class="md-nav__link">
+      Rich Pictures
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/analise_protocolo/" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Questionário
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        Questionário
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/questionario/questionario_v0/" title="V0.0" class="md-nav__link">
+      V0.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/questionario/questionario_v1/" title="V0.1" class="md-nav__link">
+      V0.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/questionario/resultados/" title="Resultados" class="md-nav__link">
+      Resultados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/observacao/" title="Observação" class="md-nav__link">
+      Observação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/brainstorming/" title="Brainstorming" class="md-nav__link">
+      Brainstorming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../priorizacao/firstThingFirst/" title="Priorização" class="md-nav__link">
+      Priorização
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Cenários
+      </label>
+    
+    <a href="./" title="Cenários" class="md-nav__link md-nav__link--active">
+      Cenários
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c1" class="md-nav__link">
+    C1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c2" class="md-nav__link">
+    C2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c3" class="md-nav__link">
+    C3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c4" class="md-nav__link">
+    C4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c5" class="md-nav__link">
+    C5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c6" class="md-nav__link">
+    C6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c7" class="md-nav__link">
+    C7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c8" class="md-nav__link">
+    C8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c9" class="md-nav__link">
+    C9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c10" class="md-nav__link">
+    C10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c11" class="md-nav__link">
+    C11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c12" class="md-nav__link">
+    C12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c13" class="md-nav__link">
+    C13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controle-de-versao" class="md-nav__link">
+    Controle de versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas/" title="Diagramas de Casos de Uso" class="md-nav__link">
+      Diagramas de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao_dcu/" title="Especificações de casos de uso" class="md-nav__link">
+      Especificações de casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacaoSuplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR/" title="NFR" class="md-nav__link">
+      NFR
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/NFR/" title="NFR" class="md-nav__link">
+      NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/diagramas_casos_uso/" title="Casos de Uso" class="md-nav__link">
+      Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/rich_pictures/" title="Rich Pictures" class="md-nav__link">
+      Rich Pictures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/observacao/" title="Observação" class="md-nav__link">
+      Observação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/brainstorming/" title="Brainstorming" class="md-nav__link">
+      Brainstorming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/email_suporte/" title="Validação" class="md-nav__link">
+      Validação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_de_protocolo.md" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/especificacao_suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/questionarios/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Pós-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Pós-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/backwardFrom/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/forwardFrom/" title="Forward-From" class="md-nav__link">
+      Forward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/EAP/" title="EAP" class="md-nav__link">
+      EAP
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c1" class="md-nav__link">
+    C1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c2" class="md-nav__link">
+    C2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c3" class="md-nav__link">
+    C3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c4" class="md-nav__link">
+    C4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c5" class="md-nav__link">
+    C5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c6" class="md-nav__link">
+    C6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c7" class="md-nav__link">
+    C7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c8" class="md-nav__link">
+    C8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c9" class="md-nav__link">
+    C9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c10" class="md-nav__link">
+    C10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c11" class="md-nav__link">
+    C11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c12" class="md-nav__link">
+    C12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c13" class="md-nav__link">
+    C13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controle-de-versao" class="md-nav__link">
+    Controle de versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos2-2019/2019.2-Shazam/edit/master/docs/modelagem/cenarios.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="cenarios">Cenários</h1>
+<h2 id="introducao">Introdução</h2>
+<p align="justify">Os cenários consistem de uma coleção de narrativas de situações no domínio que favorecem o levantamento de informações em um contexto proposto que permitem a identificação de possíveis tarefas e funcionalidades que se pode realizar em um software, como também identifica problemas e a antecipação das soluções. A técnica de elaborar cenários é uma maneira excelente de representar, para clientes e usuários, os problemas existentes em um software e as possibilidades que podem surgir. Os cenários têm como foco as atividades desempenhadas pelos usuários nas organizações em diferentes contextos possibilitando uma perspectiva mais ampla dos problemas atuais onde o sistema será inserido, explicando porque ele é necessário.</p>
+
+<h2 id="c1"><a href="#c1">C1</a></h2>
+<p><strong><a href="../lexicos/#l09">Identificar</a> uma música</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lexicos/#l09">Descobrir</a> uma música</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Página inicial do Shazam (<a href="../lexicos/#l05">login</a> não obrigatório)<br>Pré-Condição: Ter instalado o app<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> descobre música<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que quer <a href="../lexicos/#l09">descobrir</a> uma música</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que quer <a href="../lexicos/#l09">descobrir</a> uma música abre o aplicativo<br><a href="../lexicos/#l10">Usuário</a> clica no botão circular da tela de início<br>A música e artista são detectados pelo Shazam com sucesso<br>Se a música não foi detectada, <a href="../lexicos/#l10">Usuário</a> clica no botão circular e tenta novamente</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>Aplicativo estar instalado<br>Música(s) tocando no momento</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicativo estar indisponível<br>Muitos ruídos no ambiente</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c2"><a href="#c2">C2</a></h2>
+<p><strong>Realizar cadastro</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Permitir que <a href="../lexicos/#l10">usuários</a> se cadastrem</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (no ícone de configurações)<br>Pré-Condição: Ter instalado o app<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> realiza inscrição<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja ter cadastro na plataforma</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, conta de e-mail</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> quer <a href="../lexicos/#l09">descobrir</a> uma música abre o aplicativo<br><a href="../lexicos/#l10">Usuário</a> clica no botão circular da tela de início<br>A música e artista são detectados pelo Shazam com sucesso<br>Se a música não foi detectada, usuário clica no botão circular e tenta novamente<br><a href="../lexicos/#l10">Usuário</a> quer salvar seus <a href="../lexicos/#l09">Shazams</a>, então clica na opção de configurações e em seguida realizar inscrição</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter conta no Facebook<br>O <a href="../lexicos/#l10">Usuário</a> possuir e-mail</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>E-mail inválido<br>Aplicativo estar indisponível<br>Senha inválida<br>E-mail ou conta do Facebook inexistente<br>E-mail ou Facebook fora do ar</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c3"><a href="#c3">C3</a></h2>
+<p><strong>Visualizar músicas <a href="../lexicos/#l09">descobertas</a></strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visualizar as músicas que o <a href="../lexicos/#l10">Usuário</a> descobriu</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (em <a href="../lexicos/#l04">biblioteca</a>)<br>Pré-Condição: Ter instalado o app<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> visualiza músicas que descobriu<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja ter acesso às músicas que descobriu</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, músicas <a href="../lexicos/#l01">identificadas</a></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> quer visualizar uma música que descobriu<br><a href="../lexicos/#l10">Usuário</a> clica no ícone escrito "<a href="../lexicos/#l04">biblioteca</a>" ou desliza o dedo da esquerda para a direita partindo da tela de início<br>O <a href="../lexicos/#l10">Usuário</a> encontra suas músicas e artistas na <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br>O <a href="../lexicos/#l10">Usuário</a> ter clicado no botão de <a href="../lexicos/#l09">identificar</a> músicas na tela inicial do Shazam</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Músicas não terem sido reconhecidas<br>Aplicativo estar indisponível<br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c4"><a href="#c4">C4</a></h2>
+<p><strong>Salvar músicas <a href="../lexicos/#l09">descobertas</a></strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Salvar as músicas que foram <a href="../lexicos/#l01">identificadas</a></td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone de configurações)<br>Pré-Condição: Ter instalado o app e ter músicas <a href="../lexicos/#l09">descobertas</a> na <a href="../lexicos/#l04">biblioteca</a><br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> salva músicas que descobriu<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja salvar às músicas <a href="../lexicos/#l01">identificadas</a> pelo app</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, músicas  [identificadas](lexicos.md#l01 na <a href="../lexicos/#l04">biblioteca</a> do app</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> quer salvar as músicas que descobriu sem ter o risco de sair do aplicativo e elas sumirem da <a href="../lexicos/#l04">biblioteca</a><br>Usuário clica no ícone escrito "<a href="../lexicos/#l04">biblioteca</a>" ou desliza o dedo da esquerda para a direita partindo da tela de início e depois no ícone de configurações<br>O <a href="../lexicos/#l10">Usuário</a> encontra a opção de inscrição que garante que suas músicas sejam salvas</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> ter músicas na <a href="../lexicos/#l04">biblioteca</a> que deseja salvar<br>O <a href="../lexicos/#l10">Usuário</a> ter conta no Facebook<br>O <a href="../lexicos/#l10">Usuário</a> possuir e-mail</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Músicas não terem sido <a href="../lexicos/#l01">reconhcidas</a><br>E-mail inválido<br>Aplicativo estar indisponível<br>Senha inválida<br>E-mail ou conta do Facebook inexistente<br>E-mail ou Facebook fora do ar</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c5"><a href="#c5">C5</a></h2>
+<p><strong>Procurar músicas ou artistas no app</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Efetuar busca por músicas ou artistas já disponíveis no app</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da direita do Shazam (ícone de <a href="../lexicos/#l09">descobrir</a>)<br>Pré-Condição: Ter o app instalado<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> encontra músicas ou artistas de seu interesse existentes no app<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja explorar músicas ou artistas de seu interesse que estão disponíveis no app</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> quer explorar as músicas ou artistas existentes no aplicativo<br><a href="../lexicos/#l10">Usuário</a> clica no ícone escrito "<a href="../lexicos/#l09">Descobrir</a>" ou desliza o dedo da direita para a esquerda partindo da tela de início e depois no ícone de "lupa" em seguida, digita algo de seu interesse<br>O <a href="../lexicos/#l10">Usuário</a> encontra as músicas ou artistas que deseja e visualiza as músicas mais populares "<a href="../lexicos/#l106">top-trending</a>"</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br><a href="../lexicos/#l10">Usuário</a> pesquisar por um artista ou música inexistente</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c6"><a href="#c6">C6</a></h2>
+<p><strong>Fazer <a href="../lexicos/#l05">login</a></strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fazer <a href="../lexicos/#l05">login</a> no app e salvar suas músicas</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) e botão de "fazer <a href="../lexicos/#l05">login</a>"<br>Pré-Condição: Ter o app instalado<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> faz <a href="../lexicos/#l05">login</a><br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja ter sua conta logada e já fez inscrição</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, e-mail válido</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> prefere ter uma conta com <a href="../lexicos/#l05">login</a><br><a href="../lexicos/#l10">Usuário</a> clica no ícone escrito "<a href="../lexicos/#l04">biblioteca</a>" ou desliza o dedo da esquerda para a direita partindo da tela de início e depois no clica no botão referente a "fazer <a href="../lexicos/#l05">login</a>" em seguida, clica na opção de realizá-lo com e-mail ou facebook<br>O <a href="../lexicos/#l10">Usuário</a> recebe uma validação por e-mail<br>Após a confirmação o <a href="../lexicos/#l10">Usuário</a> estará logado</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> possuir cadastro</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br><a href="../lexicos/#l10">Usuário</a> esquecer e-mail<br><a href="../lexicos/#l10">Usuário</a> não ter confirmado a conta por e-mail</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c7"><a href="#c7">C7</a></h2>
+<p><strong>Sair do aplicativo Shazam</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fazer logout no app</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) em seguida, ícone de configurações<br>Pré-Condição: O <a href="../lexicos/#l10">Usuário</a> deve estar logado<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> clica na opção de "sair" e encerra a sessão a conta<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja sair da sua conta logada</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, conta do <a href="../lexicos/#l10">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> clica em "<a href="../lexicos/#l04">biblioteca</a>" em seguida, na ferramenta de "configurações"<br><a href="../lexicos/#l10">Usuário</a> clica na opção de sair<br><a href="../lexicos/#l10">Usuário</a> visualiza a página de início do app</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> estar logado</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c8"><a href="#c8">C8</a></h2>
+<p><strong>Excluir conta</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Excluir conta no app</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) em seguida, ícone de configurações e na opção "sobre"<br>Pré-Condição: O <a href="../lexicos/#l10">Usuário</a> deve ter conta e estar logado<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> exclui sua conta<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que não quer mais ter conta no app</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, conta do <a href="../lexicos/#l10">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> clica em "<a href="../lexicos/#l04">biblioteca</a>", em seguida, na ferramenta de "configurações" e na opção "sobre"<br><a href="../lexicos/#l10">Usuário</a> visualiza a opção de excluir conta<br><a href="../lexicos/#l10">Usuário</a> clica em "excluir conta" e o app direciona para uma página no browser que solicita ao <a href="../lexicos/#l10">Usuário</a> iniciar uma sessão com e-mail ou facebook de acordo com a opção que o <a href="../lexicos/#l10">Usuário</a> se cadastrou</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> ter conta e estar logado</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível<br>E-mail ou facebook inválidos</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c9"><a href="#c9">C9</a></h2>
+<p><strong><a href="../lexicos/#l03">Compartilhar</a> <a href="../lexicos/#l02">mídia</a> identificada</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lexicos/#l03">Compartilhar</a> <a href="../lexicos/#l02">mídia</a> identificada pelo Shazam</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) em seguida, "<a href="../lexicos/#l09">Shazams</a> recentes" e menu contido na música que o <a href="../lexicos/#l10">Usuário</a> escolheu<br>Pré-Condição: O <a href="../lexicos/#l10">Usuário</a> deve ter  identificado uma ou mais músicas<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> compartilha <a href="../lexicos/#l02">mídia</a><br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja <a href="../lexicos/#l03">Compartilhar</a> <a href="../lexicos/#l02">mídia</a> com outros <a href="../lexicos/#l10">Usuários</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, Facebook, Gmail, Messenger, Instagram, Telegram, Whatsapp, Hangouts, etc</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> clica em "<a href="../lexicos/#l04">biblioteca</a>", em seguida, no título de "<a href="../lexicos/#l09">Shazams</a> recentes" encontra suas músicas<br><a href="../lexicos/#l10">Usuário</a> escolhe a opção que deseja <a href="../lexicos/#l03">Compartilhar</a><br><a href="../lexicos/#l10">Usuário</a> clica na música, em seguida, no menu à direita no canto inferior da tela<br><a href="../lexicos/#l10">Usuário</a> clica na opção "<a href="../lexicos/#l03">Compartilhar</a>" e escolhe uma opção de compartilhamento em outras plataformas disponíveis</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> possuir conta em alguma das plataformas disponíveis na opção de "<a href="../lexicos/#l03">Compartilhar</a>"</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível<br>E-mail ou conta em alguma das plataformas de compartilhamento estar indisponível<br>O <a href="../lexicos/#l10">Usuário</a> não possuir e-mail ou nenhuma conta nas plataformas disponíveis</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c10"><a href="#c10">C10</a></h2>
+<p><strong>Abrir <a href="../lexicos/#l02">mídia</a> do Shazam em plataformas de reprodução de músicas</strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abrir músicas <a href="../lexicos/#l01">identificadas</a> pelo Shazam em outros aplicativos que reproduzam <a href="../lexicos/#l02">mídia</a> musical</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) em seguida, "<a href="../lexicos/#l09">Shazams</a> recentes" e menu contido na música que o <a href="../lexicos/#l10">Usuário</a> escolheu<br>Pré-Condição: O <a href="../lexicos/#l10">Usuário</a> deve ter  identificado uma ou mais músicas<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> abre a música em outro app<br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja ouvir <a href="../lexicos/#l02">mídia</a> que identificou através de outros apps de reprodução de música</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, Apple Music, Google Play Music, Spotify</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> clica em "<a href="../lexicos/#l04">biblioteca</a>", em seguida, no título de "<a href="../lexicos/#l09">Shazams</a> recentes" encontra suas músicas<br><a href="../lexicos/#l10">Usuário</a> escolhe a opção que deseja <a href="../lexicos/#l03">Compartilhar</a><br><a href="../lexicos/#l10">Usuário</a> clica na música, em seguida, no menu à direita no canto inferior da tela<br><a href="../lexicos/#l10">Usuário</a> clica na opção "Abrir no Apple Music" ou "Abrir no Google Play music" ou "Abrir no Spotify" e escolhe a opção de seu interesse para reproduzir a música</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> possuir conta em alguma das plataformas disponíveis na opção de "Abrir a música"</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível<br>A conta em alguma das plataformas d<a href="../lexicos/#l10">Usuário</a>e compartilhamento estar indisponível<br>O <a href="../lexicos/#l10">Usuário</a> não possuir conta em nenhuma das plataformas disponíveis</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c11"><a href="#c110">C11</a></h2>
+<p><strong>Remover alguma <a href="../lexicos/#l02">mídia</a> identificada da <a href="../lexicos/#l04">biblioteca</a></strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Remover alguma música descoberta da <a href="../lexicos/#l04">biblioteca</a> do Shazam</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) em seguida, "<a href="../lexicos/#l09">Shazams</a> recentes" e menu contido na música que o <a href="../lexicos/#l10">Usuário</a> escolheu<br>Pré-Condição: O <a href="../lexicos/#l10">Usuário</a> deve ter identificado uma ou mais músicas<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> remove a música de sua <a href="../lexicos/#l04">biblioteca</a> <br></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja remover uma música de sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, músicas da <a href="../lexicos/#l04">biblioteca</a> do app</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> clica em "<a href="../lexicos/#l04">biblioteca</a>", em seguida, no título de "<a href="../lexicos/#l09">Shazams</a> recentes" e encontra suas músicas<br><a href="../lexicos/#l10">Usuário</a> clica em alguma música e no menu à direita dessa música escolhida encontra a opção de remover música da sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> possuir uma ou mais músicas em sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível<br><a href="../lexicos/#l10">Usuário</a> não ter nenhuma música em sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c12"><a href="#c12">C12</a></h2>
+<p><strong>Visualizar letra de alguma música <a href="../lexicos/#l01">identificada</a></strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visualizar as letras de músicas <a href="../lexicos/#l01">identificadas</a> pelo Shazam</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Tela da esquerda do Shazam (ícone da <a href="../lexicos/#l04">biblioteca</a>) em seguida, "<a href="../lexicos/#l09">Shazams</a> recentes" e a opção "letra" na música que o <a href="../lexicos/#l10">Usuário</a> escolheu<br>Pré-Condição: O <a href="../lexicos/#l10">Usuário</a> ter identificado uma ou mais músicas<br>Pós-Condição: <a href="../lexicos/#l10">Usuário</a> acessa a letra de alguma das músicas de sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> que deseja ter acesso a letra de alguma música de sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, músicas da <a href="../lexicos/#l04">biblioteca</a> do app</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#l10">Usuário</a> clica em "<a href="../lexicos/#l04">biblioteca</a>", em seguida, no título de "<a href="../lexicos/#l09">Shazams</a> recentes" e encontra suas músicas<br><a href="../lexicos/#l10">Usuário</a> clica em alguma música e na opção "letra"</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#l10">Usuário</a> ter o aplicativo<br><a href="../lexicos/#l10">Usuário</a> possuir uma ou mais músicas em sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível<br>Não existir letra da música que o <a href="../lexicos/#l10">Usuário</a> optou<br><a href="../lexicos/#l10">Usuário</a> não ter nenhuma música em sua <a href="../lexicos/#l04">biblioteca</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c13"><a href="#c13">C13</a></h2>
+<p><strong>Utilizar o <a href="../lexicos/#l11">Shazam Code</a></strong></p>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visualizar o ambiente proporcionado pelo <a href="../lexicos/#11">Shazam Code</a></td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Parte inferior da tela Principal do Shazam (ícone da câmera) em seguida deve-se ajudar o <a href="../lexicos/#11">Shazam Code</a> na área indicada pelo app.<br>Pré-Condição: O <a href="../lexicos/#10">Usuário</a> deve ter acesso a um <a href="../lexicos/#11">Shazam Code</a><br>Pós-condição:O <a href="../lexicos/#10">Usuário</a> tem acesso à interface proporcionada pelo <a href="../lexicos/#11">Shazam Code</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, <a href="lexico.md#11">Shazam Code</a></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#10">Usuário</a> clica no ícone da câmera e aponta para o <a href="lexico.md#11">Shazam Code</a></td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#10">Usuário</a> ter o aplicativo<br>O <a href="../lexicos/#10">Usuário</a> deve ter acesso à um <a href="../lexicos/#11">Shazam Code</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair<br>Aplicativo estar indisponível<br>O <a href="lexico.md#11">Shazam Code</a> ser inválido<br>O <a href="lexico.md#10">Usuário</a> não ter acesso ao <a href="lexico.md#11">Shazam Code</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="controle-de-versao">Controle de versão</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Alteração</th>
+<th align="center">Responsável(eis)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">27/09/2019</td>
+<td align="center">1.0</td>
+<td align="center">Criação do documento</td>
+<td align="center">Nathalia Lorena</td>
+</tr>
+<tr>
+<td align="center">27/09/2019</td>
+<td align="center">2.0</td>
+<td align="center">Adicionando cenários</td>
+<td align="center">Nathalia Lorena</td>
+</tr>
+<tr>
+<td align="center">28/09/2019</td>
+<td align="center">2.1</td>
+<td align="center">Adicionando cenários</td>
+<td align="center">Nathalia Lorena</td>
+</tr>
+<tr>
+<td align="center">30/09/2019</td>
+<td align="center">2.2</td>
+<td align="center">Correção de indentação</td>
+<td align="center">Débora</td>
+</tr>
+<tr>
+<td align="center">13/11/2019</td>
+<td align="center">2.3</td>
+<td align="center">Adicionando rastreabilidade</td>
+<td align="center">Nathalia Lorena</td>
+</tr>
+<tr>
+<td align="center">27/11/2019</td>
+<td align="center">2.4</td>
+<td align="center">Adição do cenário C13</td>
+<td align="center">Gabriel Tiveron</td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencias">Referências</h2>
+<ul>
+<li>SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../priorizacao/firstThingFirst/" title="Priorização" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Priorização
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../lexicos/" title="Léxicos" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Léxicos
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.a8b5e56f.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

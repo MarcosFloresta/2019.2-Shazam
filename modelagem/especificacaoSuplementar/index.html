@@ -1,0 +1,1600 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Requisitos de Software do aplicativo Shazam">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
+    
+    
+      
+        <title>Especificação Suplementar - Requisitos de Software - Shazam</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#especificacao-suplementar" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Requisitos de Software - Shazam" class="md-header-nav__button md-logo">
+          
+            <img src="../../assets/img/shazam-logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Requisitos de Software - Shazam
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Especificação Suplementar
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Shazam/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Requisitos2-2019/Shazam
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Requisitos de Software - Shazam" class="md-nav__button md-logo">
+      
+        <img src="../../assets/img/shazam-logo.png" width="48" height="48">
+      
+    </a>
+    Requisitos de Software - Shazam
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Shazam/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Requisitos2-2019/Shazam
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../metodologia/metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Pré-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Pré-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pre-rastreabilidade/rich-pictures/richPicture/" title="Rich Pictures" class="md-nav__link">
+      Rich Pictures
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/analise_protocolo/" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Questionário
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        Questionário
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/questionario/questionario_v0/" title="V0.0" class="md-nav__link">
+      V0.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/questionario/questionario_v1/" title="V0.1" class="md-nav__link">
+      V0.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/questionario/resultados/" title="Resultados" class="md-nav__link">
+      Resultados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/observacao/" title="Observação" class="md-nav__link">
+      Observação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/brainstorming/" title="Brainstorming" class="md-nav__link">
+      Brainstorming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../priorizacao/firstThingFirst/" title="Priorização" class="md-nav__link">
+      Priorização
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas/" title="Diagramas de Casos de Uso" class="md-nav__link">
+      Diagramas de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao_dcu/" title="Especificações de casos de uso" class="md-nav__link">
+      Especificações de casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Especificação Suplementar
+      </label>
+    
+    <a href="./" title="Especificação Suplementar" class="md-nav__link md-nav__link--active">
+      Especificação Suplementar
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalidade" class="md-nav__link">
+    Finalidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    Visão Geral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidade" class="md-nav__link">
+    Funcionalidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    Usabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade" class="md-nav__link">
+    Requisito de Usabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade-dois" class="md-nav__link">
+    Requisito de Usabilidade Dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade-tres" class="md-nav__link">
+    Requisito de Usabilidade Três
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade-quatro" class="md-nav__link">
+    Requisito de Usabilidade Quatro
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confiabilidade" class="md-nav__link">
+    Confiabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-confiabilidade-um" class="md-nav__link">
+    Requisito de Confiabilidade Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-confiabilidade-dois" class="md-nav__link">
+    Requisito de Confiabilidade Dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-confiabilidade-quatro" class="md-nav__link">
+    Requisito de Confiabilidade Quatro
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desempenho" class="md-nav__link">
+    Desempenho
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-desempenho-um" class="md-nav__link">
+    Requisito de Desempenho Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-de-desempenho-dois" class="md-nav__link">
+    Requisitos de Desempenho Dois
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suportabilidade" class="md-nav__link">
+    Suportabilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricoes-de-design" class="md-nav__link">
+    Restrições de Design
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#restricao-de-design-um" class="md-nav__link">
+    Restrição de Design Um
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line" class="md-nav__link">
+    Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-suporte-ao-usuario-um" class="md-nav__link">
+    Requisito de Suporte ao Usuário Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-suporte-ao-usuario-dois" class="md-nav__link">
+    Requisito de Suporte ao Usuário Dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-suporte-ao-usuario-tres" class="md-nav__link">
+    Requisito de Suporte ao Usuário Três
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentes-adquiridos" class="md-nav__link">
+    Componentes Adquiridos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-do-usuario" class="md-nav__link">
+    Interfaces do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-hardware" class="md-nav__link">
+    Interfaces de Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-software" class="md-nav__link">
+    Interfaces de Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-comunicacao" class="md-nav__link">
+    Interfaces de Comunicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-licenciamento" class="md-nav__link">
+    Requisitos de Licenciamento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-licenciamento-um" class="md-nav__link">
+    Requisito de Licenciamento Um
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento-do-documento" class="md-nav__link">
+    Versionamento do documento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR/" title="NFR" class="md-nav__link">
+      NFR
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/NFR/" title="NFR" class="md-nav__link">
+      NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/diagramas_casos_uso/" title="Casos de Uso" class="md-nav__link">
+      Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/rich_pictures/" title="Rich Pictures" class="md-nav__link">
+      Rich Pictures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/observacao/" title="Observação" class="md-nav__link">
+      Observação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/brainstorming/" title="Brainstorming" class="md-nav__link">
+      Brainstorming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/email_suporte/" title="Validação" class="md-nav__link">
+      Validação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_de_protocolo.md" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/especificacao_suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/questionarios/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Pós-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Pós-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/backwardFrom/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/forwardFrom/" title="Forward-From" class="md-nav__link">
+      Forward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/EAP/" title="EAP" class="md-nav__link">
+      EAP
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalidade" class="md-nav__link">
+    Finalidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    Visão Geral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidade" class="md-nav__link">
+    Funcionalidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    Usabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade" class="md-nav__link">
+    Requisito de Usabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade-dois" class="md-nav__link">
+    Requisito de Usabilidade Dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade-tres" class="md-nav__link">
+    Requisito de Usabilidade Três
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-usabilidade-quatro" class="md-nav__link">
+    Requisito de Usabilidade Quatro
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confiabilidade" class="md-nav__link">
+    Confiabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-confiabilidade-um" class="md-nav__link">
+    Requisito de Confiabilidade Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-confiabilidade-dois" class="md-nav__link">
+    Requisito de Confiabilidade Dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-confiabilidade-quatro" class="md-nav__link">
+    Requisito de Confiabilidade Quatro
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desempenho" class="md-nav__link">
+    Desempenho
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-desempenho-um" class="md-nav__link">
+    Requisito de Desempenho Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-de-desempenho-dois" class="md-nav__link">
+    Requisitos de Desempenho Dois
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suportabilidade" class="md-nav__link">
+    Suportabilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricoes-de-design" class="md-nav__link">
+    Restrições de Design
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#restricao-de-design-um" class="md-nav__link">
+    Restrição de Design Um
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line" class="md-nav__link">
+    Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-suporte-ao-usuario-um" class="md-nav__link">
+    Requisito de Suporte ao Usuário Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-suporte-ao-usuario-dois" class="md-nav__link">
+    Requisito de Suporte ao Usuário Dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-suporte-ao-usuario-tres" class="md-nav__link">
+    Requisito de Suporte ao Usuário Três
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentes-adquiridos" class="md-nav__link">
+    Componentes Adquiridos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-do-usuario" class="md-nav__link">
+    Interfaces do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-hardware" class="md-nav__link">
+    Interfaces de Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-software" class="md-nav__link">
+    Interfaces de Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-comunicacao" class="md-nav__link">
+    Interfaces de Comunicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-licenciamento" class="md-nav__link">
+    Requisitos de Licenciamento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-licenciamento-um" class="md-nav__link">
+    Requisito de Licenciamento Um
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento-do-documento" class="md-nav__link">
+    Versionamento do documento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos2-2019/2019.2-Shazam/edit/master/docs/modelagem/especificacaoSuplementar.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="especificacao-suplementar">Especificação suplementar</h1>
+<h2 id="introducao">Introdução</h2>
+<p><p align="justify">O Presente documento reúne os requisitos não identificados nos demais processos de elicitação e que não foram atendidos pelo contato direto com o aplicativo, mas com a percepção de usuários e membros da equipe.</p></p>
+<h2 id="finalidade">Finalidade</h2>
+<p><p align="justify">Esse documento visa descrever requisitos não funcionais do Shazam, ou seja, restrições qualitativas que impactam na usabilidade, no visual, no desempenho, na segurança e outros.Permite uma visão mais ampla sobre os requisitos da aplicação que vão além de funcionalidades, que descrevem necessidades relacionadas à qualidade, estrutura e condições subjetivas.</p></p>
+<h2 id="escopo">Escopo</h2>
+<p><p align="justify">O escopo se resume à uma aplicação mobile que oferece captura de áudio e detecção de mídias tais como programas de TV, propagandas e músicas.</p></p>
+<h2 id="definicoes-acronimos-e-abreviacoes">Definições, Acrônimos e Abreviações</h2>
+<p><p align="justify">Shazam- aplicativo utilizado pela equipe, cujo foco é detectar mídias através de gravação de trecho da mídia desejada.</p>
+<p align="justify">Elicitação - Processo de obtenção de requisitos através das técnicas de entrevistas, brainstorming, introspecções, dentre outras.</p></p>
+<h2 id="visao-geral">Visão Geral</h2>
+<p><p align="justify">O Documento presente apresenta uma introdução ao escopo do projeto analisado, cujos requisitos suplementares estão listados posteriormente, contendo requisitos não funcionais (obtidos pelas impressões de usuários assíduos do aplicativo), requisitos de usabilidade, confiabilidade, desempenho, suportabilidade, sistema, licenciamento, restrições de design e interfaces.</p></p>
+<h2 id="funcionalidade">Funcionalidade</h2>
+<p><p align="justify">Esse tópico reúne os requisitos não funcionais, dado que os requisitos funcionais estão dispostos e definidos na documentação de elicitação, sendo representados pelos casos de uso.</p></p>
+<h2 id="usabilidade">Usabilidade</h2>
+<p><p align="justify">Os usuários devem poder aprender a mexer no sistema de forma intuitiva através do uso. Dessa forma, o treinamento necessário para fazer uma utilização correta do sistema deverá ser rápido, com aprendizado máximo de 30 minutos - considerando que um usuário não gasta muito tempo de uma vez só no sistema. Já para um usuário que deseja ter conhecimento profundo do sistema (usuário avançado) pode levar um período de tempo maior através de aprendizagem orgânica, ou seja, utilizando a aplicação.</p>
+<p align="justify">Uma observação pertinente é que para fazer bom uso do sistema o usuário deve ser capaz de utilizar seu dispositivo físico de acesso (celular smartphone) e também o sistema operacional instalado no dispositivo   (Android ou iOS).</p></p>
+<h3 id="requisito-de-usabilidade">Requisito de Usabilidade</h3>
+<p><p align="justify">A aplicação  deve utilizar padrões visuais de informação condizentes  com a plataforma em que se encontra.</p></p>
+<h3 id="requisito-de-usabilidade-dois">Requisito de Usabilidade Dois</h3>
+<p><p align="justify">A aplicação deve oferecer tutoriais para usuários de primeira viagem, no intuito de capacitá-los ao uso do aplicativo.</p></p>
+<h3 id="requisito-de-usabilidade-tres">Requisito de Usabilidade Três</h3>
+<p><p align="justify">A aplicação deve fornecer ao usuário um fluxo intuitivo, por meio dos ícones, para suas diversas funcionalidades.</p></p>
+<h3 id="requisito-de-usabilidade-quatro">Requisito de Usabilidade Quatro</h3>
+<p><p align="justify">O sistema deve oferecer agilidade e facilidade no momento em que o usuário executa funcionalidades básicas e principais.</p></p>
+<h2 id="confiabilidade">Confiabilidade</h2>
+<p><p align="justify">O Sistema possui servidores estáveis, com uma baixa taxa de reclamação dos usuários quanto a falhas de funcionamento, tendo fluxo contínuo e rápida resposta com informações sobre a mídia para o usuário.</p></p>
+<h3 id="requisito-de-confiabilidade-um">Requisito de Confiabilidade Um</h3>
+<p><p align="justify">O Sistema deve armazenar e recuperar informações com precisão, fazendo uso de criptografia de dados para impedir o vazamento de informações.</p></p>
+<h3 id="requisito-de-confiabilidade-dois">Requisito de Confiabilidade Dois</h3>
+<p><p align="justify">No caso de uma sessão de usuário expirar, qualquer tarefa que exija futuras informações dependentes terá o acesso bloqueado, para que o os dados do usuário em sua sessão não fique exposto a um acesso de terceiros.</p></p>
+<h3 id="requisito-de-confiabilidade-quatro">Requisito de Confiabilidade Quatro</h3>
+<p><p align="justify">O software deve procurar deixar o usuário ciente do que ocorre no sistema, assim como as falhas que possam ocorrer durante o uso. Esse feedback deve informar o motivo da falha e possíveis soluções que o próprio usuário possa executar.<p/> 
+<p align="justify">Caso a correção não esteja ao alcance das ações do usuário ou não possa ser informado, o suporte deve ser imediatamente informado.</p></p>
+<h2 id="desempenho">Desempenho</h2>
+<p><p align="justify">Como requisito de desempenho, o tempo de resposta das requisições feitas pelo usuário deve ser o menor possível, não podendo passar de 1 minuto para uma melhor experiência do usuário dentro da aplicação.</p></p>
+<h3 id="requisito-de-desempenho-um">Requisito de Desempenho Um</h3>
+<p><p align="justify">A aplicação deve conter o balanceamento de carga ao servidor como suporte, devido ao grande número de acessos diários na aplicação, a fim de garantir o acesso de todos os usuários dentro do Shazam.</p></p>
+<h3 id="requisitos-de-desempenho-dois">Requisitos de Desempenho Dois</h3>
+<p><p align="justify">A aplicação deve ser capaz de responder rapidamente a uma ação de cada usuário do Shazam, de forma simultânea.</p></p>
+<h2 id="suportabilidade">Suportabilidade</h2>
+<p><p align="justify">O sistema deve estar disponível para mobile, tanto nos dispositivos Android como IOS.</p></p>
+<h2 id="restricoes-de-design">Restrições de Design</h2>
+<p><p align="justify">Esta seção reúne as decisões quanto ao design estabelecido e aplicado no Shazam, refletindo o padrão adotado para o uso em diferentes plataformas e a adaptação às alterações conforme o formato de exibição de informações, caracterizando a forma de utilização e o grau de contato entre o usuário e o aplicativo.</p></p>
+<h3 id="restricao-de-design-um">Restrição de Design Um</h3>
+<p><p align="justify">A aplicação deverá ter o suporte a diversas línguas, definido através do idioma estabelecido no dispositivo do usuário.</p></p>
+<h2 id="requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line</h2>
+<p><p align="justify">Esta seção reúne os requisitos que buscam tratar do suporte e dos sistemas de auxílio ao usuário para o uso correto da aplicação, como sistemas de suporte e páginas de apoio.</p></p>
+<h3 id="requisito-de-suporte-ao-usuario-um">Requisito de Suporte ao Usuário Um</h3>
+<p><p align="justify">A aplicação deve possuir um link de acesso a uma página da web com suporte e guia de funcionalidades da aplicação, para guiar o usuário em seu primeiro uso ou sanar dúvidas pontuais de forma direta.</p></p>
+<h3 id="requisito-de-suporte-ao-usuario-dois">Requisito de Suporte ao Usuário Dois</h3>
+<p><p align="justify">A página de suporte deve conter guias de instrução para as principais funcionalidades do aplicativo, com exemplificações claras e textos diretos e informativos.</p></p>
+<h3 id="requisito-de-suporte-ao-usuario-tres">Requisito de Suporte ao Usuário Três</h3>
+<p><p align="justify">A página de suporte deverá proporcionar a resposta a perguntas frequentes, com páginas de resolução de dúvidas contendo links e índices de satisfação do usuário.</p></p>
+<h2 id="componentes-adquiridos">Componentes Adquiridos</h2>
+<p><p align="justify">O sistema deve levar em consideração as licenças do software e reservas legais ao ser desenvolvido.</p></p>
+<h2 id="interfaces">Interfaces</h2>
+<p><p align="justify">A Presente seção busca definir e categorizar os tipos de interface presentes na aplicação, contando com a necessidade do software conter um desenvolvimento correto e a presença de endereços, lógicas, protocolos e planejamento de execução bem integrados para um funcionamento correto.</p></p>
+<h3 id="interfaces-do-usuario">Interfaces do Usuário</h3>
+<p><p align="justify">A plataforma deverá disponibilizar uma interface de suporte gráfico com os componentes da aplicação, de modo que o usuário possa interagir com as funcionalidades da melhor forma possível.</p></p>
+<h3 id="interfaces-de-hardware">Interfaces de Hardware</h3>
+<p><p align="justify">A plataforma deve ter suporte para smartphones.</p></p>
+<h3 id="interfaces-de-software">Interfaces de Software</h3>
+<p><p align="justify">A plataforma deve usufruir de linguagens e frameworks que ajude na manutenção e viabilize a eficiência no desenvolvimento, através de algum paradigma definido.</p></p>
+<h3 id="interfaces-de-comunicacao">Interfaces de Comunicação</h3>
+<p><p align="justify">A plataforma deve possuir uma interface de comunicação afim a suportar as diversas requisições de dados do sistema de forma a manter a integridade de todos os dados. Além de comunicação por meio de micro serviço que possibilitará o registro de contas e armazenamento de mídias na biblioteca do aplicativo.</p></p>
+<h2 id="requisitos-de-licenciamento">Requisitos de Licenciamento</h2>
+<p><p align="justify">Esta seção reúne os requisitos que definem as especificações do licenciamento da aplicação, buscando abranger os aspectos referentes às permissões e restrições do usuário, definidas nos documentos de licenciamento.</p></p>
+<h3 id="requisito-de-licenciamento-um">Requisito de Licenciamento Um</h3>
+<p><p align="justify">Aos usuários que seguirem todas os Termos e Diretrizes da Comunidade, será oferecida uma licença limitada, não exclusiva, intransferível e revogável para usar a aplicação de forma gratuita.</p></p>
+<h2 id="versionamento-do-documento">Versionamento do documento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Alteração</th>
+<th align="center">Responsável(eis)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">21/10/2019</td>
+<td align="center">1.0</td>
+<td align="center">Criação do documento</td>
+<td align="center">Débora Vilela</td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencias">Referências</h2>
+<ul>
+<li>SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 11. 1º/2019. 40 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../especificacao_dcu/" title="Especificações de casos de uso" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Especificações de casos de uso
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../backlog/" title="Backlog do Produto" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Backlog do Produto
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.a8b5e56f.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
