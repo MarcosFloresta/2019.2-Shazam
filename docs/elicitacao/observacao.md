@@ -37,21 +37,26 @@ O usuário decidiu compartilhar a música que descobriu por e-mail gerando um li
 
 | RF  | Descrição |
 |:---:|:---------:|
-|RF01 |Detecção de mídias musicais por áudio|
-|RF02 |Permite ouvir trecho da música detectada|
-|RF03 |Armazena músicas descobertas em uma biblioteca permitindo encontrá-las novamente em outro momento|
-|RF04 |Compartilhamento de músicas descobertas em outras plataformas|
+|[OF01](#of01) |Detecção de mídias musicais por áudio|
+|[OF02](#of02)|Permite ouvir trecho da música detectada|
+|[OF03](#of03) |Armazena músicas descobertas em uma biblioteca permitindo encontrá-las novamente em outro momento|
+|[OF04](#of04)|Compartilhamento de músicas descobertas em outras plataformas|
 
-### Requisitos de Qualidade
 
-|RQ|Descrição|
+### Requisitos não Funcionais
+
+|RNF|Descrição|
 |:---:|:---: |
-|RQ01 |Botão intuitivo e com frases instrutivas|
-|RQ02 |Acesso para download em Android e IOS|
-|RQ03 |O aplicativo possui três telas|
-|RQ04 |ícones instrutivos na opção  de abrir a mídia musical em um aplicativo reprodutor de músicas|
-|RQ05|ícones instrutivos na opção  de compartilhar mídia musical|
+|[ONF01](#onf01) |Botão intuitivo e com frases instrutivas|
+|[ONF02](#onf02) |Acesso para download em Android e IOS|
+|[ONF03](#onf03) |O aplicativo possui três telas|
+|[ONF04](#onf04)|ícones instrutivos na opção  de abrir a mídia musical em um aplicativo reprodutor de músicas|
+|[ONF05](#onf05)|ícones instrutivos na opção  de compartilhar mídia musical|
 
+### Legendas 
+
+- OF: Requisito de observação Funcional
+- ONF: Requisito de observação não Funcional
 
 ## Controle de versão
 
@@ -60,3 +65,6 @@ O usuário decidiu compartilhar a música que descobriu por e-mail gerando um li
 | 23/09/2019 | 1.0 | Criação do documento | Nathalia Lorena |
 | 23/09/2019 | 1.1 | Correção de erros de ortografia| Nathalia Lorena |
 |30/09/2019|1.2|Correção de indentação do documento|Débora|
+|27/11/2019|1.3|Melhorias de rastreabilidade|Nathalia Lorena|
+
+
