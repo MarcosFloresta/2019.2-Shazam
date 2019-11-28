@@ -27,28 +27,20 @@ Considerando que o telegram era um ambiente o quel todos possuiam familiaridade 
 Devido o fato de diversos integrantes possuírem trabalho e ou estágio, foi difícil de organizar reunióes, presenciais, semanalmente para decisão de novas issues e do que fazer na semana posterior. Ademais, por conta disso, o grupo como um todo decidiu que seria melhor fazer reuniões por video chamadas, e o melhor software encontrado foi o hangouts, tendo em vista a acessibilidade do mesmo e a familiarização dos integrantes com o mesmo.
 
 ## Ferramentas Usadas
-<section style="width: 500px; overflow: hidden; display: flex; flex-diretion: column">
-<div style="float: left; padding: 10px">
+<section align="justify" style="float: left">
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/shazam.jpg" width="120px" />
-</div>
-<div style="float: left; padding: 10px">
+
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/mkdocs.jpg" width="120px" />
-</div>
-<div style="float: left; padding: 10px">
+
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/telegram.jpg" width="120px" />
-</div>
-<div style="float: left; padding: 10px">
+
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/hangouts.jpg" width="120px" />
-</div>
-<div style="float: left; padding: 10px">
+
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/zenhub.jpg" width="120px" />
-</div>
-<div style="float: left; padding: 10px">
+
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/drive.jpg" width="120px"/>
-</div>
-<div style="float: left; padding: 10px">
+
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/apresentacoes.jpg" width="120px"/>
-</div>
 </section>
 
 ## Heatmap
