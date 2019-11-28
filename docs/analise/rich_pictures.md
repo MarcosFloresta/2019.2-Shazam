@@ -50,14 +50,9 @@
 |1.0|2||X||3 e 7|
 |2.0|2||X||3 e 7|
 
-## Correção
+## Inspeção
 
-|Responsável|Rich Picture|Versão|
-|:--:|:----:|:---:|
-
-## Acompanhamento
-
-|Item|Questão|Impacto|
+|Responsável|Versão|Data|
 |:--:|:----:|:---:|
 
 ## Versionamento

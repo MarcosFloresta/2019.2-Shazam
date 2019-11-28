@@ -73,15 +73,10 @@ Foram levantadas questões as quais expressam a finalidade e a execução de cad
 |Shazam|2||X||5,11|
 
 
-##Correção
+## Inspeção
 
-|Responsável|Léxico|Versão|
-|:--:|:----:|:---:|
-
-## Acompanhamento
-
-|Léxico|Questão|Impacto|
-|:--:|:----:|:---:|
+|Responsável|Léxico|Versão|Data
+|:--:|:----:|:---:|:---:|
 
 ## Versionamento
 

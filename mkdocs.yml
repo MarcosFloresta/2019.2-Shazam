@@ -34,6 +34,11 @@ nav:
     - Brainstorming: 'analise/brainstorming.md'
     - Validação: 'analise/email_suporte.md'  
     - Backlog: 'analise/backlog.md'
+    - Análise de Protocolo: 'analise/analise_de_protocolo.md'
+    - Cenários: 'analise/cenarios.md'
+    - Especificação Suplementar: 'analise/especificacao_suplementar.md'
+    - Introspecção: 'analise/introspeccao.md'
+    - Questionário: 'analise/questionarios.md'
   - Pós-Rastreabilidade:
     - Backward-From: 'pos-rastreabilidade/backwardFrom.md'
     - Forward-From: 'pos-rastreabilidade/forwardFrom.md'
