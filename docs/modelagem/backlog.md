@@ -5,7 +5,7 @@ um produto, pode-se começar
 com tudo aquilo que é mais óbvio em um primeiro momento. Com o tempo, o
 Product Backlog cresce e muda à medida que se aprende mais sobre o produto e
 seus usuários.
-Este documento busca apresentar o product backlog do aplicativo Shazam utilizando requisitos já levantados em ponntos de controle anteriores, com foco em modelagem de requisitos para metodologia ágil fazendo o uso de histórias de usuários e épicos.
+Este documento busca apresentar o product backlog do aplicativo Shazam utilizando requisitos já levantados em pontos de controle anteriores, com foco em modelagem de requisitos para metodologia ágil fazendo o uso de histórias de usuários e épicos.
 
 ## Épicos
 
@@ -61,6 +61,10 @@ Eu, como usuário, gostaria de atualizar minhas playlists com as músicas encont
 
 Eu, como usuário, gostaria de acompanhar a letra da música pelo aplicativo.
 
+### EP14
+
+Eu, como usuário, gostaria de ter acesso a uma nova interface por meio de um código único.
+
 ## Product Backlog
 
 |ID|Tema|Agente|<div style="width:400px">Objetivo<div/>|<div style="width:200px">Finalidade</div>|Notas|Prioridade|Status|
@@ -87,6 +91,7 @@ Eu, como usuário, gostaria de acompanhar a letra da música pelo aplicativo.
 |[EP9](#ep9)|RNF15|Usuário|Poder identificar qualquer música ao redor sem entrar no app com a opção auto Shazam ativada.|Para ouvir depois, ou adicionar à alguma _playlist_ minha.||Should|To do|
 |[EP10](#ep10)|RNF16|Usuário|Poder escolher um tema claro ou escuro para o app.|Permitir que a aparência do app esteja de acordo com as preferências do usuário.||Should|To do|
 |[EP11](#ep11)|RF17|Usuário|Reconhecer mídia através da voz do usuário|Para detectar mídia desejada||Could|To do|
+|[EP14](#ep14)|RNF18|Usuário|Acessar uma interface virtual por meio de um código único|Para acessar uma área interativa proporcionada pelo código| | Should |To do|
 
 
 ## Controle de versão
@@ -102,6 +107,7 @@ Eu, como usuário, gostaria de acompanhar a letra da música pelo aplicativo.
 | 21/10/2019 | 1.6 | Adicionando novo épico e backlogs | Nathalia Lorena |
 | 21/10/2019 | 1.7 | Adicionando novo backlog e épicos| Débora Vilela|
 | 13/11/2019 | 1.8 | Adicionando rastreabilidade e melhorias| Nathalia Lorena|
+| 27/11/2019 | 1.9 | Adicionado novo épico e RNF | Gabriel Tiveron |
 
 ## Referências
 
