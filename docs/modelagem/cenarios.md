@@ -250,6 +250,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 **Utilizar o [Shazam Code](lexicos.md#l11)**
 
 |Objetivo|
+| ------- |
 |Visualizar o ambiente proporcionado pelo [Shazam Code](lexicos.md#11)|
 |**Contexto**|
 |Local: Parte inferior da tela Principal do Shazam (ícone da câmera) em seguida deve-se ajudar o [Shazam Code](lexicos.md#11) na área indicada pelo app.<br>Pré-Condição: O [Usuário](lexicos.md#10) deve ter acesso a um [Shazam Code](lexicos.md#11)<br>Pós-condição:O [Usuário](lexicos.md#10) tem acesso à interface proporcionada pelo [Shazam Code](lexicos.md#11)|

@@ -41,6 +41,8 @@ O objetivo deste artefato é fazer a pós-rastreabilidade dos requisitos, verifi
 | RNF33 | Poder identificar qualquer música ao redor sem entrar no app com a opção auto Shazam ativada. | - | [RF15](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/backlog/#product-backlog) | - | - | - | [RF15](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/backlog) | [RF20](https://requisitos-de-software.github.io/2019.2-Shazam/priorizacao/firstThingFirst) | - |  - | - | - | [RF14](https://requisitos-de-software.github.io/2019.2-Shazam/elicitacao/brainstorming/requisitos-funcionais) | [EF33](#EF33) |
 | RNF34 | Poder escolher um tema claro ou escuro para o app.	| - | [RF16](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/backlog/#product-backlog) | - | - | - | [RF16](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/backlog) | - | - |  - | - | - | - | [EF34](#EF34) |
 | RNF35 | Reconhecer mídia através da voz do usuário	| - | [RF17](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/backlog/#product-backlog) | - | - | - | [RF17](https://requisitos-de-software.github.io/2019.2-Shazam/modelagem/backlog) | - | - |  - | - | - | - | [EF35](#EF35) |
+| RNF36 | Interação com o Shazam Code | - | [RNF18](../modelagem/backlog.md) | - | [C13](../modelagem/cenarios.md#c13)| [L11](../modelagem/lexicos.md#l11) | - | - | - | - | - | - | - | - | - | - |
+
 
 ## Elos Funcionais
 
@@ -307,6 +309,7 @@ Agregação: [RF01](https://requisitos-de-software.github.io/2019.2-Shazam/model
 | 14/11/2019 | 1.3 | Correção de links de rastreabilidade | Victor Levi && Gabriel Tiveron |
 | 25/11/2019 | 2.0 | Adição dos Elos Funcionais | Ernando Braga | 
 | 27/11/2019 | 2.1 | Padronização do identificador dos requisitos não funcionais | Gabriel Tiveron |
+| 27/11/2019 | 2.2 | Adição da pós rastrabilidade do RNF36 | Gabriel Tiveron |
 
 
 ## Referências
