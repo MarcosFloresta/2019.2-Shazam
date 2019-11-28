@@ -1,4 +1,4 @@
-# Verificação de Léxicos 
+# Verificação de [Léxicos](#l01)
 
 ## Planejamento
 <p align="justify">Para a verificação dos léxicos, foi utilizado o método de verificação pelo ponto de vista, de forma a detectar qualquer divergência em relação à estrutura padrão de um léxico. O documento presente foi realizado por dois integrantes da equipe.</p>
@@ -73,11 +73,9 @@ Foram levantadas questões as quais expressam a finalidade e a execução de cad
 |Shazam|2||X||5,11|
 
 
-## Inspeção
-
-|Responsável|Léxico|Versão|Data
-|:--:|:----:|:---:|:---:|
-
+|Autor do documento|Inspetor|
+|:--:|:----:|
+| Ernando| Débora | 
 ## Versionamento
 
 |Data|Versão|Alteração|Responsável(eis)|
