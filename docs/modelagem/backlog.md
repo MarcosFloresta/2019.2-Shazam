@@ -103,3 +103,6 @@ Eu, como usuário, gostaria de acompanhar a letra da música pelo aplicativo.
 | 21/10/2019 | 1.7 | Adicionando novo backlog e épicos| Débora Vilela|
 | 13/11/2019 | 1.8 | Adicionando rastreabilidade e melhorias| Nathalia Lorena|
 
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

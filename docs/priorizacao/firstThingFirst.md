@@ -32,3 +32,7 @@
 | 30/09/2019 | 1.0 | Criação do documento | Débora Vilela |
 | 30/09/2019 | 1.1 | Adicionando imagem do First Thing First | Débora Vilela | 
 | 14/11/2019 | 1.2 | Adição de indexação dos Requisitos | Gabriel Tiveron|
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
