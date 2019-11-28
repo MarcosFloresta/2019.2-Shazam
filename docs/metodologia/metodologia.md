@@ -28,7 +28,7 @@ Devido o fato de diversos integrantes possuírem trabalho e ou estágio, foi dif
 
 ## Ferramentas Usadas
 <section style="max-width: 480px; flex-wrap: wrap; display: flex; justify-content: flex-start; ">
-<div style="flex: 1">
+<div align="justify">
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/Metodologias/shazam.jpg" width="120px" />
 </div>
 <div style="flex: 1">
