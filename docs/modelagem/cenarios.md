@@ -254,13 +254,13 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 |Visualizar o ambiente proporcionado pelo [Shazam Code](lexicos.md#11)|
 |**Contexto**|
 |Local: Parte inferior da tela Principal do Shazam (ícone da câmera) em seguida deve-se ajudar o [Shazam Code](lexicos.md#11) na área indicada pelo app.<br>Pré-Condição: O [Usuário](lexicos.md#10) deve ter acesso a um [Shazam Code](lexicos.md#11)<br>Pós-condição:O [Usuário](lexicos.md#10) tem acesso à interface proporcionada pelo [Shazam Code](lexicos.md#11)|
-|Recursos|
+|**Recursos**|
 |Internet, aplicativo, [Shazam Code](lexico.md#11)|
-|Episódios|
+|**Episódios**|
 |[Usuário](lexicos.md#10) clica no ícone da câmera e aponta para o [Shazam Code](lexico.md#11)|
-|Restrição|
+|**Restrição**|
 |O [Usuário](lexicos.md#10) ter o aplicativo<br>O [Usuário](lexicos.md#10) deve ter acesso à um [Shazam Code](lexicos.md#11)|
-|Exceção|
+|**Exceção**|
 |Internet cair<br>Aplicativo estar indisponível<br>O [Shazam Code](lexico.md#11) ser inválido<br>O [Usuário](lexico.md#10) não ter acesso ao [Shazam Code](lexico.md#11)|
 
 ## Controle de versão
