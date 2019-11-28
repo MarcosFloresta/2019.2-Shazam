@@ -14,12 +14,12 @@ Shazam é um aplicativo que reconhece música, TV e mídia ao seu redor. É a me
 
 
 ## Equipe
-
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/team/nathalia.jpg" width="120px" />
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/team/ernando.jpg" width="120px" />
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/team/victor.jpg" width="120px" />
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/team/debora.jpg" width="120px" />
 <img src="https://raw.githubusercontent.com/Requisitos2-2019/Shazam/master/docs/assets/img/team/gabriel.jpg" width="120px" />
+
 
 |    Nome     |     Matrícula    |    Github   |
 | ----------- | ---------------- | ----------- |
