@@ -39,3 +39,11 @@
 | 30/09/2019 | 1.5 | Adicionando Metodologia| Nathalia Lorena |
 | 13/11/2019 | 1.6 | Adicionando rastreabilidade e melhorias nos léxicos | Nathalia Lorena |
 | 27/11/2019 | 1.7 | Adição do léxico 'Shazam Code'| Gabriel Tiveron |
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+HABITICA - Gamify your Life. Disponível em: https://requisitos-habitica.netlify.com/. Acesso em: 16 nov. 2019.
+
+GUIA Bolso. Disponível em: https://github.com/fga-disciplinas/2019.1-Guia-Bolso. Acesso em: 16 nov. 2019.

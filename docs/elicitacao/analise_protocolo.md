@@ -66,3 +66,7 @@ bem como leitura de QR Code de conteúdos que possuam o ícone do aplicativo.</p
 |:--:|:----:|:-------:|:---:|
 | 12/09/2019 | 1.0 | Criação do documento | Gabriel e Débora |
 |30/09/2019|2.0|Atualização geral da Análise de Protocolo|Débora|
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

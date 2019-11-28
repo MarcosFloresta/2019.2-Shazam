@@ -9,7 +9,7 @@
 
 ### Checklist
 
-Foram levantadas questões as quais expressam a finalidade e a execução de cada item de uma [análise]() [de]() [protocolo](https://requisitos-de-software.github.io/2019.2-Shazam/elicitacao/analise_protocolo/).
+Foram levantadas questões as quais expressam a finalidade e a execução de cada item de uma [Análise de Protocolo](https://requisitos-de-software.github.io/2019.2-Shazam/elicitacao/analise_protocolo/).
 
 |Número|Questão|
 |:---:|:---:|

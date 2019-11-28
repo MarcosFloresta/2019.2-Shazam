@@ -272,3 +272,7 @@ Internet cair<br>Conteúdo musical muito distante para ser detectado<br>Aplicati
 | 30/09/2019 | 2.2 | Correção de indentação | Débora|
 | 13/11/2019 | 2.3 | Adicionando rastreabilidade | Nathalia Lorena |
 | 27/11/2019 | 2.4 | Adição do cenário C13 | Gabriel Tiveron |
+
+## Referências
+
+- SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 10. 1º/2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

@@ -43,6 +43,7 @@ nav:
   - Pós-Rastreabilidade:
     - Backward-From: 'pos-rastreabilidade/backwardFrom.md'
     - Forward-From: 'pos-rastreabilidade/forwardFrom.md'
+    - EAP: 'pos-rastreabilidade/EAP.md'
 
 theme:
   name: 'material'
